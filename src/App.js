@@ -2,16 +2,16 @@ import logo from './logo.svg';
 import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import About from './components/About';
+// import About from './components/About';
 import Textarea from './components/Textarea';
 import Alert from './components/Alert';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Routes
-} from "react-router-dom";
-// import About from './components/About';
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   Link,
+//   Routes
+// } from "react-router-dom";
+
 // tThis is the main file which shows how your app works
 function App() {
     const[alert,setAlert] = useState(null);
@@ -52,19 +52,20 @@ function App() {
      <>
      {/* props are basilly variable inisde  components that we want to change time to timme */}
      {/* this will crete our whole navbar suppose we want to our websites name for multiple websites and use it and we cna use props-properties  */}
-    <Router>
+    {/* <Router> */}
     <Navbar title ="TextUtils" mode = {mode} toggleMode = {toggleMode} about ="About" />
     <Alert alert = {alert}/>
     <div className="container my-3"> 
-    <Routes>
+    <Textarea showAlert = {showAlert} headline = "Enter the text to analyze"/>
+    {/* <Routes>
           <Route exact path="/about" element={<About/>}/>
           <Route exact path="/" element={<Textarea showAlert = {showAlert} headline = "Enter the text to analyze"/>}/>
 
-    </Routes>
+    </Routes> */}
     
     {/* <About/> */}
     </div>
-    </Router>
+    {/* </Router> */}
      </>
   );
 }
