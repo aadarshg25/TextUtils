@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TextUtils/static/css/main.abd64e84.css",
-    "main.js": "/TextUtils/static/js/main.9018687c.js",
-    "static/js/787.719ec76d.chunk.js": "/TextUtils/static/js/787.719ec76d.chunk.js",
-    "static/media/logo.svg": "/TextUtils/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/TextUtils/index.html",
-    "main.abd64e84.css.map": "/TextUtils/static/css/main.abd64e84.css.map",
-    "main.9018687c.js.map": "/TextUtils/static/js/main.9018687c.js.map",
-    "787.719ec76d.chunk.js.map": "/TextUtils/static/js/787.719ec76d.chunk.js.map"
+    "main.css": "/aadarshg25/TextUtils.git/static/css/main.5241049e.css",
+    "main.js": "/aadarshg25/TextUtils.git/static/js/main.c9fd6693.js",
+    "static/js/787.719ec76d.chunk.js": "/aadarshg25/TextUtils.git/static/js/787.719ec76d.chunk.js",
+    "static/media/crash.mp3": "/aadarshg25/TextUtils.git/static/media/crash.83bc7d8d0c0291933c5c.mp3",
+    "index.html": "/aadarshg25/TextUtils.git/index.html",
+    "main.5241049e.css.map": "/aadarshg25/TextUtils.git/static/css/main.5241049e.css.map",
+    "main.c9fd6693.js.map": "/aadarshg25/TextUtils.git/static/js/main.c9fd6693.js.map",
+    "787.719ec76d.chunk.js.map": "/aadarshg25/TextUtils.git/static/js/787.719ec76d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd64e84.css",
-    "static/js/main.9018687c.js"
+    "static/css/main.5241049e.css",
+    "static/js/main.c9fd6693.js"
   ]
 }
